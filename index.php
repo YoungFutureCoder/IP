@@ -57,7 +57,7 @@ $red = ImageColorAllocate($im, 255,0,0);//红色
 $font = 'msyh.ttf';//加载字体
 $address = $country.'-'.$region.'-'.$city;
 if (strlen($address) == 2) {
-    $address = ' 太阳系 ';
+    $address = ' C-53星球 ';
 }
 //输出
 imagettftext($im, 16, 0, 10, 40, $black, $font,'欢迎您,来自'.$address.'的朋友');
